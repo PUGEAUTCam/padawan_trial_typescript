@@ -1,9 +1,8 @@
+<script setup lang="ts">
+import CreateNewSale from "@/components/CreateNewSale.vue"
+</script>
+
 <template>
-   <div>
-      <h1>New Sale Page</h1>
-   </div>
+   <h1>Créer une nouvelle vente</h1>
+   <CreateNewSale />
 </template>
-
-<script setup lang="ts"></script>
-
-<style scoped></style>
