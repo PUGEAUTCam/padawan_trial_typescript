@@ -39,6 +39,7 @@ const handleSubmit = async () => {
    loader.value = true
    let res = await createNewSale(newSale.value)
    const itemsPromises = items.value.map((item) =>
+      //Res est type unknown ?
       createNewItem(item, res.data.id)
    )
    await Promise.all(itemsPromises)
